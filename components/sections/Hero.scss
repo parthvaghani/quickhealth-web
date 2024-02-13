@@ -1,0 +1,44 @@
+// Variables
+$color: #e4547d;
+
+.circle-ripple {
+  background-color: #e4547d;
+  border-radius: 50%;
+  animation: ripple 0.7s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba($color, 0.3),
+                0 0 0 0.5em rgba($color, 0.3),
+                0 0 0 1em rgba($color, 0.3),
+                0 0 0 2em rgba($color, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 0.5em rgba($color, 0.3),
+                0 0 0 1em rgba($color, 0.3),
+                0 0 0 2em rgba($color, 0.3),
+                0 0 0 3em rgba($color, 0);
+  }
+}
+
+.awssld {
+  --organic-arrow-thickness: 4px;
+  --organic-arrow-height: 40px;
+  --slider-height-percentage: 60%;
+  --loader-bar-color: #3f9bdb !important;
+  --loader-bar-height: 6px;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-opacity: .5;
+  --control-button-hover-opacity: .75;
+  --control-button-background: transparent;
+  --transition-bezier: cubic-bezier(0.5,0.075,0.25,0.95);
+  --slider-transition-duration: 575ms;
+  --organic-arrow-color: #3f9bdb !important;
+  --organic-arrow-border-radius: 0;
+  --control-bullet-color: #3f9bdb !important;
+  --control-bullet-active-color: #3f9bdb !important;
+  --content-background-color: #2f2f2f;
+  max-width: 100%;
+}

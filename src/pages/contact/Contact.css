@@ -1,0 +1,63 @@
+.main {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.main .contact-main-head {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #d9dee2;
+  height: auto;
+}
+.main .contact-main-head .left-content {
+  width: 50%;
+  padding-right: 40px;
+  padding-left: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.main .contact-main-head .left-content h6 {
+  color: #ff663b;
+}
+.main .contact-main-head .left-content h2 {
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.main .contact-main-head .right-form {
+  background-color: #f1f4f5;
+  width: 50%;
+  border-radius: 6px;
+  padding: 25px;
+}
+.main .contact-main-head .right-form span {
+  color: #0c2e60;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.main .contact-main-head .right-form .inputs {
+  font-size: 15px;
+}
+.main .contact-main-head .right-form .inputs .inputField {
+  margin-right: 10px;
+  height: 40px;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 15px;
+  font-size: 14px;
+  color: #252b33;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #d9dee2;
+}
+.main .contact-main-head .right-form .submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.main .contact-main-head .right-form .submit-btn button {
+  padding: 8px;
+}/*# sourceMappingURL=Contact.css.map */

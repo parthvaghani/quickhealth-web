@@ -1,0 +1,91 @@
+.showcasebanner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: pink;
+  text-align: center;
+}
+
+.showcasebanner img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  object-fit: cover;
+}
+
+/* h1 {
+  line-height: 40px;
+} */
+.showcasebanner .overlaybanner {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.showcasebanner h2 {
+  margin-top: 150px;
+  font-size: 2em;
+  color: aliceblue;
+  opacity: 1;
+}
+.overlaybanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlaybanner h1 {
+  font-size: 45px;
+}
+
+@media (max-width: 767px) and (min-width: 210px) {
+  .overlaybanner h1 {
+    font-size: 30px !important;
+  }
+  .overlaybanner h5 {
+    font-size: 20px !important;
+  }
+}
+
+.showcasebanner h5 {
+  margin-top: 8px;
+  font-size: 1.1em;
+  color: black;
+  opacity: 1;
+}
+.max_width_70 {
+  max-width: 70%;
+}
+@media (max-width: 767px) and (min-width: 210px) {
+  .max_width_70 {
+    max-width: 85% !important;
+  }
+}
+
+/* Banner2 */
+
+.repeat-banner {
+  background-image: url('../../../public/assets/images/banner2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: 50% center;
+  height: 448px;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.large-btn-white {
+  background-color: #fff;
+  color: #000 !important;
+  padding: 18px 30px;
+  transition: all 0.2s ease 0s;
+}

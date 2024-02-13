@@ -1,0 +1,17 @@
+.alignCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  flex-flow: wrap;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 25px;
+    flex-flow: wrap;
+  }
+}
